@@ -1,5 +1,5 @@
 import { useEffect, useState, useRef } from 'react'
-import Graph, { MultiDirectedGraph } from 'graphology'
+import { MultiDirectedGraph } from 'graphology'
 import { Attributes, SerializedGraph } from "graphology-types";
 import { NodeImageProgram, NodePictogramProgram } from "@sigma/node-image";
 import { EdgeArrowProgram } from "sigma/rendering";
@@ -7,8 +7,6 @@ import Sigma from 'sigma'
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { CharacterProfile } from "@/components/character-profile"
-import { ProfileCard } from "@/components/profile-card"
-import { Link } from 'react-router-dom';
 import { X } from "lucide-react"
 import { FaYoutube } from "react-icons/fa6";
 import { FaXTwitter } from "react-icons/fa6";
