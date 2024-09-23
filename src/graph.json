@@ -1,0 +1,235 @@
+{
+  "attributes": {
+    "name": "Tata Graph"
+  },
+  "options": {
+  },
+  "nodes": [
+    {
+      "key": "tata",
+      "attributes": {
+        "label": "Taiga Toragami",
+        "alias": "Tata",
+        "size": 80,
+        "color": "#e9a151",
+        "info": "hello",
+        "x": 0,
+        "y": 0,
+        "type": "image",
+        "image": "",
+        "cimage": ""
+      }
+    },
+    {
+      "key": "tatabro",
+      "attributes": {
+        "label": "Tatabro",
+        "alias": "Tato Toragami",
+        "size": 40,
+        "color": "white",
+        "info": "Tata's brother. Lives with Tata. plays FIFA.",
+        "x": 3.5,
+        "y": 0.5,
+        "type": "image",
+        "image": "./assets/tatabro.jpg"
+      }
+    },
+    {
+      "key": "tatamama",
+      "attributes": {
+        "label": "Tatamama",
+        "alias": "Tato Toragami",
+        "size": 40,
+        "color": "white",
+        "info": "Tata's Mom. Nice and caring. Doesn't know about Tata's internet activities.",
+        "x": 1.5,
+        "y": 1.5,
+        "type": "image"
+      }
+    },
+    {
+      "key": "idoles",
+      "attributes": {
+        "label": "IdolES",
+        "alias": "idoles",
+        "size": 40,
+        "color": "black",
+        "info": "IdolES 1st Generation, EternalS.",
+        "x": 2.8,
+        "y": -1.2,
+        "type": "image"
+      }
+    },
+    {
+      "key": "meica",
+      "attributes": {
+        "label": "Meica",
+        "alias": "Tato Toragami",
+        "size": 40,
+        "color": "#8cac6b",
+        "info": "The plant of IdolES EternalS.",
+        "x": 1.5,
+        "y": -2,
+        "type": "image"
+      }
+    },
+    {
+      "key": "wuby",
+      "attributes": {
+        "label": "Wuby",
+        "alias": "Tato Toragami",
+        "size": 40,
+        "color": "#c42c34",
+        "info": "The witch necromancer from IdolES EternalS.",
+        "x": 2.3,
+        "y": -2.8,
+        "type": "image"
+      }
+    },
+    {
+      "key": "lala",
+      "attributes": {
+        "label": "Lala",
+        "alias": "Tato Toragami",
+        "size": 40,
+        "color": "#FF0000",
+        "info": "Bunny magical girl from IdolES EternalS.",
+        "x": 3.4,
+        "y": -2.8,
+        "type": "image"
+      }
+    },
+    {
+      "key": "koa",
+      "attributes": {
+        "label": "Koa",
+        "alias": "Tato Toragami",
+        "size": 40,
+        "color": "#3374c1",
+        "info": "The little demon from IdolES EternalS.",
+        "x": 4,
+        "y": -2,
+        "type": "image"
+      }
+    },
+    {
+      "key": "inge",
+      "attributes": {
+        "label": "Ingeniero",
+        "alias": "Tato Toragami",
+        "size": 40,
+        "color": "black",
+        "info": "Ignored by Tata. It was too late when Tata realized that she needed him. Ingeniero is now with someone else. Tata is heartbroken.",
+        "x": -2,
+        "y": -2,
+        "type": "image"
+      }
+    },
+    {
+      "key": "daigo",
+      "attributes": {
+        "label": "Daigo",
+        "alias": "Daigo",
+        "size": 40,
+        "color": "gray",
+        "info": "Tata's cool and handsome alter ego. He tends to appear when Tata gets too shy when receiving a compliment.",
+        "x": -3,
+        "y": 0,
+        "type": "image"
+      }
+    }
+
+  ],
+  "edges": [
+    {
+      "key": "T->Bro",
+      "source": "tata",
+      "target": "tatabro",
+      "attributes": {
+        "label": "sister of",
+        "size": 3
+      }
+    },
+    {
+      "key": "T->Id",
+      "source": "tata",
+      "target": "idoles",
+      "attributes": {
+        "label": "member of",
+        "size": 3
+      }
+    },
+    {
+      "key": "T->In",
+      "source": "tata",
+      "target": "inge",
+      "attributes": {
+        "label": "heart broken by",
+        "size": 3
+      }
+    },
+    {
+      "key": "T->M",
+      "source": "tata",
+      "target": "tatamama",
+      "attributes": {
+        "label": "daughter of",
+        "size": 3
+      }
+    },
+    {
+      "key": "T->D",
+      "source": "tata",
+      "target": "daigo",
+      "attributes": {
+        "label": "alter ego",
+        "size": 3
+      }
+    },
+    {
+      "key": "K->Id",
+      "source": "koa",
+      "target": "idoles",
+      "attributes": {
+        "label": "member of",
+        "size": 3
+      }
+    },
+    {
+      "key": "M->Id",
+      "source": "meica",
+      "target": "idoles",
+      "attributes": {
+        "label": "member of",
+        "size": 3
+      }
+    },
+    {
+      "key": "W->Id",
+      "source": "wuby",
+      "target": "idoles",
+      "attributes": {
+        "label": "member of",
+        "size": 3
+      }
+    },
+    {
+      "key": "L->Id",
+      "source": "lala",
+      "target": "idoles",
+      "attributes": {
+        "label": "member of",
+        "size": 3
+      }
+    },
+    {
+      "key": "y->Id",
+      "source": "koa",
+      "target": "idoles",
+      "attributes": {
+        "label": "member of",
+        "size": 3
+      }
+    }
+  ]
+}

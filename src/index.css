@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  :root {
+    --radius: 0.5rem
+  }
+}
+
+@font-face {
+  font-family: 'Merriweather-Regular';
+  src: local("Merriweather-Regular"),
+    url('/assets/fonts/Merriweather/Merriweather-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Merriweather-Bold';
+  src: local("Merriweather-Bold"),
+    url('/assets/fonts/Merriweather/Merriweather-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Merriweather-BoldItalic';
+  src: local("Merriweather-BoldItalic"),
+    url('/assets/fonts/Merriweather/Merriweather-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Merriweather-BlackItalic';
+  src: local("Merriweather-BlackItalic"),
+    url('/assets/fonts/Merriweather/Merriweather-BlackItalic.ttf') format('truetype');
+}
